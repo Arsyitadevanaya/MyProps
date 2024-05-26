@@ -20,7 +20,7 @@ const navbar = () => {
         setIsOpen(!isOpen);
     };
     return (
-        <nav className={`fixed z-50 bg-white border-gray-200 dark:bg-gray-900 w-full ${scroll.scrollingDown ? "opacity-0" : "opacity-100"} ${scroll.scrolling ? "bg-opacity-70" : "bg-opacity-100"}`} data-aos="fade-down"
+        <nav className={`fixed z-50 bg-white border-gray-200 dark:bg-gray-900 w-full ${scroll.scrollingDown ? "opacity-0" : "opacity-100"} ${scroll.scrolling ? "bg-opacity-70" : "bg-opacity-100"}`} 
             data-aos-easing="linear"
             data-aos-duration="500">
             <div className='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 lg:px-16 lg:py-4'>
